@@ -3,105 +3,51 @@ guid: bc1881ef45c87f04c9db943f9d41d6a3
 timeCreated: 1524767711
 licenseType: Pro
 PluginImporter:
-  externalObjects: {}
-  serializedVersion: 2
+  serializedVersion: 1
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
-  isOverridable: 0
   platformData:
-  - first:
-      '': Any
-    second:
+    Editor:
       enabled: 0
-      settings:
-        Exclude Android: 1
-        Exclude Editor: 0
-        Exclude Linux: 0
-        Exclude Linux64: 1
-        Exclude LinuxUniversal: 1
-        Exclude OSXUniversal: 1
-        Exclude Win: 0
-        Exclude Win64: 1
-  - first:
-      Android: Android
-    second:
-      enabled: 0
-      settings:
-        CPU: ARMv7
-  - first:
-      Any: 
-    second:
-      enabled: 0
-      settings: {}
-  - first:
-      Editor: Editor
-    second:
-      enabled: 1
       settings:
         CPU: x86
         DefaultValueInitialized: true
-        OS: Windows
-  - first:
-      Facebook: Win
-    second:
-      enabled: 1
-      settings:
-        CPU: AnyCPU
-  - first:
-      Facebook: Win64
-    second:
-      enabled: 0
-      settings:
-        CPU: None
-  - first:
-      Standalone: Linux
-    second:
+    Linux:
       enabled: 1
       settings:
         CPU: x86
-  - first:
-      Standalone: Linux64
-    second:
+    Linux64:
       enabled: 0
       settings:
         CPU: None
-  - first:
-      Standalone: LinuxUniversal
-    second:
-      enabled: 0
+    LinuxUniversal:
+      enabled: 1
       settings:
         CPU: x86
-  - first:
-      Standalone: OSXIntel
-    second:
+    OSXIntel:
       enabled: 1
       settings:
         CPU: AnyCPU
-  - first:
-      Standalone: OSXIntel64
-    second:
+    OSXIntel64:
       enabled: 0
       settings:
         CPU: None
-  - first:
-      Standalone: OSXUniversal
-    second:
+    OSXUniversal:
       enabled: 0
       settings:
         CPU: x86
-  - first:
-      Standalone: Win
-    second:
+    Win:
       enabled: 1
       settings:
         CPU: AnyCPU
-  - first:
-      Standalone: Win64
-    second:
+    Win64:
       enabled: 0
       settings:
         CPU: None
+    first:
+      enabled: 0
+      settings: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

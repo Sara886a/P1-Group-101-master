@@ -16,85 +16,85 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4050235663507654}
-  - component: {fileID: 114121827862505544}
+  - 4: {fileID: 4050235663507654}
+  - 114: {fileID: 114121827862505544}
   m_Layer: 0
   m_Name: Leap Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1339460489974520
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4057968051431532}
-  - component: {fileID: 81344774275610192}
-  - component: {fileID: 20862101930491778}
-  - component: {fileID: 114292754717913548}
+  - 4: {fileID: 4057968051431532}
+  - 81: {fileID: 81344774275610192}
+  - 20: {fileID: 20862101930491778}
+  - 114: {fileID: 114292754717913548}
   m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
+  m_Name: 
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1394407071443026
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4747000360033344}
-  - component: {fileID: 114392913348310336}
-  - component: {fileID: 114729107751495636}
+  - 4: {fileID: 4747000360033344}
+  - 114: {fileID: 114392913348310336}
+  - 114: {fileID: 114729107751495636}
   m_Layer: 0
-  m_Name: Capsule Hand Left
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1671192356237494
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4554978340012998}
-  - component: {fileID: 114473456793702560}
+  - 4: {fileID: 4554978340012998}
+  - 114: {fileID: 114473456793702560}
   m_Layer: 0
-  m_Name: Hand Models
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1997533534152106
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 4
   m_Component:
-  - component: {fileID: 4594958951747726}
-  - component: {fileID: 114885214940683100}
-  - component: {fileID: 114061374976943252}
+  - 4: {fileID: 4594958951747726}
+  - 114: {fileID: 114885214940683100}
+  - 114: {fileID: 114061374976943252}
   m_Layer: 0
-  m_Name: Capsule Hand Right
+  m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4050235663507654
 Transform:
   m_ObjectHideFlags: 1
@@ -104,12 +104,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4057968051431532}
   - {fileID: 4554978340012998}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4057968051431532
 Transform:
   m_ObjectHideFlags: 1
@@ -119,10 +119,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4050235663507654}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4554978340012998
 Transform:
   m_ObjectHideFlags: 1
@@ -132,12 +132,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4747000360033344}
   - {fileID: 4594958951747726}
   m_Father: {fileID: 4050235663507654}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4594958951747726
 Transform:
   m_ObjectHideFlags: 1
@@ -147,10 +147,10 @@ Transform:
   m_LocalRotation: {x: 0.000000115202326, y: -0.7071067, z: -0.7071068, w: -0.00000011520231}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -89.980194, y: 180, z: 0}
   m_Children: []
   m_Father: {fileID: 4554978340012998}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -89.980194, y: 180, z: 0}
 --- !u!4 &4747000360033344
 Transform:
   m_ObjectHideFlags: 1
@@ -160,10 +160,10 @@ Transform:
   m_LocalRotation: {x: 0.000000115202326, y: -0.7071067, z: -0.7071068, w: -0.00000011520231}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: -89.980194, y: 180, z: 0}
   m_Children: []
   m_Father: {fileID: 4554978340012998}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -89.980194, y: 180, z: 0}
 --- !u!20 &20862101930491778
 Camera:
   m_ObjectHideFlags: 1
@@ -194,12 +194,10 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
 --- !u!81 &81344774275610192
 AudioListener:
   m_ObjectHideFlags: 1
@@ -274,7 +272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handedness: 0
   _showArm: 1
-  _material: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  _material: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 3}
   _sphereMesh: {fileID: 4300002, guid: 2f496b1b1bec86743b418551f859020c, type: 3}
   _cylinderResolution: 12
 --- !u!114 &114473456793702560
@@ -288,13 +286,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c592f16851a620743868a31232613370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _leapProvider: {fileID: 114292754717913548}
+  _leapProvider: {fileID: 56863136}
   ModelPool:
   - GroupName: Capsule Hands
     _handModelManager: {fileID: 0}
-    LeftModel: {fileID: 114392913348310336}
+    LeftModel: {fileID: 56865440}
     IsLeftToBeSpawned: 0
-    RightModel: {fileID: 114885214940683100}
+    RightModel: {fileID: 56866592}
     IsRightToBeSpawned: 0
     IsEnabled: 1
     CanDuplicate: 0
@@ -322,6 +320,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handedness: 1
   _showArm: 1
-  _material: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  _material: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 3}
   _sphereMesh: {fileID: 4300002, guid: 2f496b1b1bec86743b418551f859020c, type: 3}
   _cylinderResolution: 12
